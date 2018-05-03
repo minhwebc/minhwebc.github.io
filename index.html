@@ -219,7 +219,7 @@
                     <div class="single-feature">
                         <i class="ti-user" aria-hidden="true"></i>
                         <h5>Awesome Experience</h5>
-                        <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <p>You can post, view items, be reminded and message with others users. All in one app.</p>
                     </div>
                 </div>
                 <!-- Single Feature Start -->
@@ -345,13 +345,11 @@
                 <div class="col-12 col-md-6 col-lg-3">
                     <div class="single-team-member">
                         <div class="member-image">
-                            <img src="img/team-img/team-1.jpg" alt="">
+                            <img src="img/team-img/Quan_Nguyen_Wall.png" alt="">
                             <div class="team-hover-effects">
                                 <div class="team-social-icon">
-                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                                    <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                    <a href="https://github.com/minhwebc"><i class="fa fa-github" aria-hidden="true"></i></a>
+                                    <a href="https://plus.google.com/u/0/117393895595251171330"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -364,13 +362,10 @@
                 <div class="col-12 col-md-6 col-lg-3">
                     <div class="single-team-member">
                         <div class="member-image">
-                            <img src="img/team-img/team-2.jpg" alt="">
+                            <img src="img/team-img/Allen.jpg" alt="">
                             <div class="team-hover-effects">
                                 <div class="team-social-icon">
-                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                                    <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                    <a href="https://github.com/1022abcd"><i class="fa fa-github" aria-hidden="true"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -383,13 +378,10 @@
                 <div class="col-12 col-md-6 col-lg-3">
                     <div class="single-team-member">
                         <div class="member-image">
-                            <img src="img/team-img/team-3.jpg" alt="">
+                            <img src="img/team-img/Brandon.jpg" alt="">
                             <div class="team-hover-effects">
                                 <div class="team-social-icon">
-                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                                    <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                    <a href="https://github.com/chenbrandon"><i class="fa fa-github" aria-hidden="true"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -402,13 +394,10 @@
                 <div class="col-12 col-md-6 col-lg-3">
                     <div class="single-team-member">
                         <div class="member-image">
-                            <img src="img/team-img/team-4.jpg" alt="">
+                            <img src="img/team-img/Sam.jpg"  alt="">
                             <div class="team-hover-effects">
                                 <div class="team-social-icon">
-                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                                    <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                    <a href="https://github.com/imsora"><i class="fa fa-github" aria-hidden="true"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -447,7 +436,7 @@
                 <div class="col-md-6">
                     <!-- Form Start-->
                     <div class="contact_from">
-                        <form action="#" method="post">
+                        <form onsubmit="return validate();" name="myForm">
                             <!-- Message Input Area Start -->
                             <div class="contact_input_area">
                                 <div class="row">
@@ -478,6 +467,14 @@
                             <!-- Message Input Area End -->
                         </form>
                     </div>
+                    <script>
+                        function validate() {
+                          document.getElementById('message').value = "";
+                          document.getElementById('email').value = "";
+                          document.getElementById('name').value = "";
+                          return false;
+                        }
+                    </script>
                 </div>
             </div>
         </div>
@@ -492,18 +489,16 @@
         </div>
         <!-- social icon-->
         <div class="footer-social-icon">
-            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-            <a href="#"><i class="active fa fa-twitter" aria-hidden="true"></i></a>
-            <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
-            <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+            <a href="https://github.com/minhwebc/Rent.To"><i class="fa fa-github" aria-hidden="true"></i></a>
+            
         </div>
         <div class="footer-menu">
             <nav>
                 <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Terms &amp; Conditions</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Terms &amp; Conditions</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Contact</a></li>
                 </ul>
             </nav>
         </div>
