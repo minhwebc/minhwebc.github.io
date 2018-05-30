@@ -1,0 +1,25 @@
+Privacy Policy
+
+This privacy policy explains how information about you is collected, used, and disclosed by Rent.to.
+
+We may change this Privacy policy from time to time. If we make changes, we will notify you by revising the date at the top of the policy and, in some cases, we may provide you with more prominent notice (such as adding a statement to our homepage or sending you an email notification). 
+
+Collection of Information
+
+1. Information you provide to us. Rent.to collects information that you provide directly to us. For example, we collect information when you register or update the details of your account, post information in order to rent out any items through the Rent.to service, or chat within the app. The types of information we may collect include your name, email address, telephone number, postal address, photographs posted to Rent.to, and other information about posted items.
+
+2. Information we collect automatically when you use the Rent.to service. When you sign up for an account with the Rent.to service, we automatically collect information about your devices phone number and device id. Rent.to automatically collects location data to access the Rent.to service. 
+
+3. Information on third parties. Rent.to uses Google's Firebase service for user authentication, realtime database, and storage. When using Rent.to, information collected will be stored in Firebase.
+
+Use of Information
+
+Rent.to uses information about you to help advertise your items to other users. Your information may be used for marketing within the Rent.to application.
+
+Sharing of Information
+
+Rent.to may share your information about you with other users.
+
+Security
+
+Rent.to takes no responsibility for protecting your information from loss, theft, misuse and unauthorized access, disclosure, alteration, and destruction.
